@@ -1,0 +1,3 @@
+package task13;
+
+public record AlertMessage(String userPhone, String title, String body) {}
