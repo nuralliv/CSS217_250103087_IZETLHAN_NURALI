@@ -1,5 +1,5 @@
-from core.target_interface import ShippingRateProvider
-from core.models import ShippingQuote
+from week_3.core.target_interface import ShippingRateProvider
+from week_3.core.models import ShippingQuote
 
 
 class OrderDispatcher:

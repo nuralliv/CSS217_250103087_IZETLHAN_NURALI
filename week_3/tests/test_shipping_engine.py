@@ -1,12 +1,12 @@
 import pytest
 
-from core.exceptions import ShippingServiceException
-from core.models import ShippingQuote
-from core.order_dispatcher import OrderDispatcher
-from vendors.legacy_postal import OldPostalService, OldPostalSocketTimeout
-from vendors.fast_freight import FastFreightCloud, CarrierHttpError
-from adapters.legacy_adapter import OldPostalAdapter
-from adapters.fast_freight_adapter import FastFreightAdapter
+from week_3.core.exceptions import ShippingServiceException
+from week_3.core.models import ShippingQuote
+from week_3.core.order_dispatcher import OrderDispatcher
+from week_3.vendors.legacy_postal import OldPostalService, OldPostalSocketTimeout
+from week_3.vendors.fast_freight import FastFreightCloud, CarrierHttpError
+from week_3.adapters.legacy_adapter import OldPostalAdapter
+from week_3.adapters.fast_freight_adapter import FastFreightAdapter
 
 
 

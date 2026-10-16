@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from core.models import ShippingQuote
+from week_3.core.models import ShippingQuote
 
 
 class ShippingRateProvider(ABC):

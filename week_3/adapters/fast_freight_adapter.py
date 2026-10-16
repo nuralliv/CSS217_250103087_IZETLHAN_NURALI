@@ -1,7 +1,7 @@
-from core.target_interface import ShippingRateProvider
-from core.models import ShippingQuote
-from core.exceptions import ShippingServiceException
-from vendors.fast_freight import FastFreightCloud, CarrierPayload, CarrierHttpError
+from week_3.core.target_interface import ShippingRateProvider
+from week_3.core.models import ShippingQuote
+from week_3.core.exceptions import ShippingServiceException
+from week_3.vendors.fast_freight import FastFreightCloud, CarrierPayload, CarrierHttpError
 
 
 class FastFreightAdapter(ShippingRateProvider):

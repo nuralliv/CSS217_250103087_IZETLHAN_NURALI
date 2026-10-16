@@ -1,9 +1,9 @@
 import math
 
-from core.target_interface import ShippingRateProvider
-from core.models import ShippingQuote
-from core.exceptions import ShippingServiceException
-from vendors.legacy_postal import OldPostalService, OldPostalSocketTimeout
+from week_3.core.target_interface import ShippingRateProvider
+from week_3.core.models import ShippingQuote
+from week_3.core.exceptions import ShippingServiceException
+from week_3.vendors.legacy_postal import OldPostalService, OldPostalSocketTimeout
 
 
 class OldPostalAdapter(ShippingRateProvider):
